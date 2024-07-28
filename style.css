@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+.navbar{
+    border: 1px solid black;
+    min-width: auto;
+    height: 3.5rem;
+    background-color:rgb(17, 17, 18);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    
+}
+.logo{
+    height: 45px;
+    padding-top: 3px;
+}
+.border:hover{
+    border: 2px solid aliceblue;
+}
+.add-1{
+    color: #cccccc;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.add-2{
+    font: bolder;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(136, 110, 61);
+    border: 10px;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px
+}
+.nav-search:hover{
+    border: 2px solid rgb(230, 168, 55);
+    border-radius: 10px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-input{
+    border: none;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(211, 156, 53);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+span{
+    font-size: 13px;
+}
+.subname-2{
+    font:bolder;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.navbar2{
+    border: 1px none gray;
+    background-color: rgb(41, 35, 35);
+    font: bold;
+    min-height:30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #cccccc;
+    padding: 8px;
+
+}
+.nav1{
+    display: flex;
+}
+.hero_image{
+    height: 27rem;
+    width: 100%;
+}
+.navbar4{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+       
+}
+.images{
+    background-color: white;
+    width: 17.8rem;
+    height: 20rem;
+    /* padding-left: 30px; */
+    padding: 25px;
+   
+}
+.image-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-1{
+    width: 16.5rem;
+    height: 18rem;
+}
+.navbar5{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 27px;
+    flex-wrap: wrap;
+}
+.navbar5-heading{
+    padding-left: 25px;
+    padding-top: 15px;
+    display: flex;
+    
+}
+.Recent-images{
+    height: 15rem;
+    width: 20rem;
+    padding: 20px;
+}
+.navbar6{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 27px;
+    flex-wrap: wrap;
+}
+.head-1{
+    padding-left: 25px;
+    padding-top: 15px;
+    display: flex;
+}
+.product-images{
+    margin: 20px;
+    /* padding-top: 25px; */
+}
+.navbar7{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin: 27px;
+    flex-wrap: wrap;
+}
+.furniture-images{
+    height: 13rem;
+    width: 20rem;
+    padding: 20px;
+}
+.navbar8{
+    display: flex;
+    justify-content: space-around;
+    margin: 26px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.nav-4images{
+    background-color: white;
+    width: 17.8rem;
+    height: 23rem;
+    padding: 31px;
+    display: grid;
+   
+}
+.fashion1-images{
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    gap: 30px;
+}
+.fashion2-images{
+    height: 8rem;
+    width: 7rem;
+    display: flex;
+    gap: 43px;
+}
+.border1:hover{
+    border: 2px solid rgb(22, 22, 23);
+}
+.fashion3-images{
+    height: 5rem;
+    width: 4rem;
+    display: flex;
+    gap: 43px;
+}
